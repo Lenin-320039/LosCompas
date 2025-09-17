@@ -26,3 +26,4 @@ print ("prediccion de ramona para jackass", round (prediccion, 3))
 
 # Lo hicimos en clase todo el equipo en la compu de Johan
 #me gano una impresora :<
+# oigan, estamos en la rama principal y tambien unos comentaron este mismo codigo en la rama de johan, necesitamos trabajar en esta rama primero y crear las propias :>
