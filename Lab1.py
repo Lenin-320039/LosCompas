@@ -13,7 +13,7 @@ denominador = (ana_matrix**2)**0.5 * (ana_matrix**2)**0.5
 similitud = numerador / denominador
 #todo paso 1: calcular
 
-#todo paso 2
+# Predicción
 prediction = (similitud * luis_frozen) / similitud
 #?Resultados:
 print("similitud Ana-Luis:", round (similitud,2))
