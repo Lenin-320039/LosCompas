@@ -84,7 +84,7 @@ num_pre_Ke_pokemon = (simPiKe * frijolito_pokemon) + (simFrKe * pitochu_pokemon)
 den_pre_Ke_pokemon = simPiKe + simFrKe + simChKe
 pre_Ke_pokemon = num_pre_Ke_pokemon / den_pre_Ke_pokemon 
 
-
+# Resultado
 print("La similitud entre Frijolito y Pitochu es: ", round(simFriPi, 0))
 print("La similitud entre Kenny y Chow es: ", round(simChKe, 0))
 print("La similitud entre Chow y Pitochu es: ", round(simChPi, 0))
