@@ -1,5 +1,5 @@
 #LAB_2
-#Realizar el programa en Python con lo solicitado en clase de las diapositivas "HandsOn_Lab2".
+#En este programa predeciremos las calificaciones de 3 personas utilizando formulas para similitud y prediccion
 
 import time
 import math
@@ -71,17 +71,17 @@ simFrKe = numeradorsim5 / denominadorsim5
 
 #prediccion #1 para frijolito ---> demon slayer
 num_pre_Fri_demon = (simFriPi * pitochu_demon) + (simChFr * kenny_demon) + (simFrKe * chow_demon)
-den_pre_Fri_demon = simFriPi + simChFr + simFrKe
+den_pre_Fri_demon = abs(simFriPi) + abs(simChFr) + abs(simFrKe)
 pre_Fri_demon = num_pre_Fri_demon / den_pre_Fri_demon
 
 #prediccion #2 para pitochu ---> naruto
 num_pre_Pi_naruto = (simFriPi * frijolito_naruto) + (simChPi * kenny_naruto) + (simPiKe * chow_naruto)
-den_pre_Pi_naruto = simFriPi + simChPi + simPiKe
+den_pre_Pi_naruto = abs(simFriPi) + abs(simChPi) + abs(simPiKe)
 pre_Pi_naruto = num_pre_Pi_naruto / den_pre_Pi_naruto
 
 #prediccion #3 para kenny ---> pokemon
 num_pre_Ke_pokemon = (simPiKe * frijolito_pokemon) + (simFrKe * pitochu_pokemon) + (simChKe * chow_pokemon)
-den_pre_Ke_pokemon = simPiKe + simFrKe + simChKe
+den_pre_Ke_pokemon = abs(simPiKe) + abs(simFrKe) + abs(simChKe)
 pre_Ke_pokemon = num_pre_Ke_pokemon / den_pre_Ke_pokemon 
 
 
@@ -97,3 +97,4 @@ print ("Frijolito calificara Demon Slayer con:",round(pre_Fri_demon, 2))
 print ("Pitochu calificara Naruto con:", round(pre_Pi_naruto, 2))
 print ("Kenny calificara Pokemon con:", round(pre_Ke_pokemon, 2))
 #epico 
+#editen este archivo, no suban otro
