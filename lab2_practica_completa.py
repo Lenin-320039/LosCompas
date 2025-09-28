@@ -1,5 +1,5 @@
 #LAB_2
-#En este programa predeciremos las calificaciones de 3 personas utilizando formulas para similitud y prediccion
+#Realizar el programa en Python con lo solicitado en clase de las diapositivas "HandsOn_Lab2".
 
 import time
 import math
@@ -71,27 +71,29 @@ simFrKe = numeradorsim5 / denominadorsim5
 
 #prediccion #1 para frijolito ---> demon slayer
 num_pre_Fri_demon = (simFriPi * pitochu_demon) + (simChFr * kenny_demon) + (simFrKe * chow_demon)
-den_pre_Fri_demon = abs(simFriPi) + abs(simChFr) + abs(simFrKe)
+den_pre_Fri_demon = simFriPi + simChFr + simFrKe
 pre_Fri_demon = num_pre_Fri_demon / den_pre_Fri_demon
 
 #prediccion #2 para pitochu ---> naruto
 num_pre_Pi_naruto = (simFriPi * frijolito_naruto) + (simChPi * kenny_naruto) + (simPiKe * chow_naruto)
-den_pre_Pi_naruto = abs(simFriPi) + abs(simChPi) + abs(simPiKe)
+den_pre_Pi_naruto = simFriPi + simChPi + simPiKe
 pre_Pi_naruto = num_pre_Pi_naruto / den_pre_Pi_naruto
 
 #prediccion #3 para kenny ---> pokemon
 num_pre_Ke_pokemon = (simPiKe * frijolito_pokemon) + (simFrKe * pitochu_pokemon) + (simChKe * chow_pokemon)
-den_pre_Ke_pokemon = abs(simPiKe) + abs(simFrKe) + abs(simChKe)
+den_pre_Ke_pokemon = simPiKe + simFrKe + simChKe
 pre_Ke_pokemon = num_pre_Ke_pokemon / den_pre_Ke_pokemon 
 
-# Resultado
-print("La similitud entre Frijolito y Pitochu es: ", round(simFriPi, 0))
-print("La similitud entre Kenny y Chow es: ", round(simChKe, 0))
-print("La similitud entre Chow y Pitochu es: ", round(simChPi, 0))
-print("La similitud entre Frijolito y Chow es: ", round(simChFr, 0))
-print("La similitud entre Kenny y Pitochu es: ", round(simPiKe, 0))
-print("La similitud entre Frijolito y Kenny es: ", round(simFrKe, 0))
 
-print ("Frijolito calificara Demon Slayer con:",round(pre_Fri_demon, 0))
-print ("Pitochu calificara Naruto con:", round(pre_Pi_naruto, 0))
-print ("Kenny calificara Pokemon con:", round(pre_Ke_pokemon, 0))
+print("La similitud entre Frijolito y Pitochu es: ", round(simFriPi, 2))
+print("La similitud entre Kenny y Chow es: ", round(simChKe, 2))
+print("La similitud entre Chow y Pitochu es: ", round(simChPi, 2))
+print("La similitud entre Frijolito y Chow es: ", round(simChFr, 2))
+print("La similitud entre Kenny y Pitochu es: ", round(simPiKe, 2))
+print("La similitud entre Frijolito y Kenny es: ", round(simFrKe, 2))
+
+
+print ("Frijolito calificara Demon Slayer con:",round(pre_Fri_demon, 2))
+print ("Pitochu calificara Naruto con:", round(pre_Pi_naruto, 2))
+print ("Kenny calificara Pokemon con:", round(pre_Ke_pokemon, 2))
+#epico 
