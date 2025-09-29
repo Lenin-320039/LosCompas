@@ -98,3 +98,4 @@ print ("Pitochu calificara Naruto con:", round(pre_Pi_naruto, 2))
 print ("Kenny calificara Pokemon con:", round(pre_Ke_pokemon, 2))
 #epico 
 #editen este archivo, no suban otro
+# que flojera tener flojera
