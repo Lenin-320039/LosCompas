@@ -1,5 +1,5 @@
 #LAB_2
-#En este programa predeciremos las calificaciones de 3 personas utilizando formulas para similitud y prediccion
+#En b este programa predeciremos las calificaciones de 3 personas utilizando formulas para similitud y prediccion
 
 import time
 import math
