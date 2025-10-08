@@ -1,6 +1,6 @@
 #Simulacion de una Compuerta logica NAND 
 
-#Datos de entrada (x1, x2)
+#ñd de entrada (x1, x2)
 entradas = [[0,0], [0,1], [1,0], [1,1]]
 
 #*Pesos y bias 
