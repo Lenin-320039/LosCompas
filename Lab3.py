@@ -23,4 +23,4 @@ for x in entradas:
     print(f"Entrada: {x} -> z={z:.1f}, salida={salida}")
 
     #INCREIBLE johan
-    #Trabajo en equipo en llamada Lenin
+    #Trabajo en equipo en llamada Lenin aaaa
