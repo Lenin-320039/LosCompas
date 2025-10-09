@@ -23,5 +23,5 @@ print(x)
 print("\nSalida:")
 print(y)
 
-
+#trabajo en equipo
 
