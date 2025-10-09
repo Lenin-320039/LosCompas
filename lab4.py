@@ -6,7 +6,8 @@ import random
 rng = np.random.default_rng(42)  
  
 #* 3 entradas → 4 salidas
-W = rng.random((3, 4))   # Matriz de pesos 3x4
+W = rng.random((3, 4))          # Matriz de pesos 3x4
+b = rng.random(4)               # Vector de sesgo
 x = np.array([1.0, 0.5, -1.0])  # Vector de entrada (3 valores)
 
 
