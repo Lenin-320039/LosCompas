@@ -31,7 +31,7 @@ print("\nSalida Despues de la activacion Sigmoid:")
 print(factivado)
 
 
-#trabajo en equipo
+#trabajo en equipo lenin
 #epico
 #excelente trabajo 
 #porfin activado
