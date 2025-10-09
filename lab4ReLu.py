@@ -32,3 +32,4 @@ print(y)
 print("\nSalida despues de la activacion (Sigmoid):")
 print(activado)
 //el feedforward es un proceso que da como resultado una aplicacion de activación
+#trabao en equipo ReLu
