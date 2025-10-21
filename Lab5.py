@@ -119,5 +119,6 @@ match opcion:
         print("Opción no válida")
 
 #* ya estufas mi brandom.
+#gracias condiciones por existir
 
 
