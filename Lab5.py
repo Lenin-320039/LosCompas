@@ -118,3 +118,6 @@ match opcion:
     case _:
         print("Opción no válida")
 
+#* ya estufas mi brandom.
+
+
