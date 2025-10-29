@@ -55,3 +55,4 @@ print("\nLa salida es: ", salida)
 
 #todo bien hecho como debe ser
 # capas ocultas 
+#arrays!
