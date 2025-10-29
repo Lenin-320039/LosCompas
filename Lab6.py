@@ -54,3 +54,4 @@ salida = (capa2 * w2) + b2
 print("\nLa salida es: ", salida)
 
 #todo bien hecho como debe ser
+# capas ocultas 
