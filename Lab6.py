@@ -47,8 +47,8 @@ print("\nLa salida de la segunda capa oculta (Sigmoid) es: \n", capa2)
 
 #Salida
 
-w2 = np.array([0.9, 0.5, 0.2]) 
+w2 = np.array([0.9])  
 b2 = 0.1
 
-salida = np.dot(capa2, w2) + b2
+salida = (capa2 * w2) + b2
 print("\nLa salida es: ", salida)
