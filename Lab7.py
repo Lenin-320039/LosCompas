@@ -65,5 +65,6 @@ plt.axvline(0, color='black', linewidth=0.5) # Dibuja el eje Y
 
 #Mostrar la gráfica
 plt.show()
+#ya estufas mi brandom
 
 
