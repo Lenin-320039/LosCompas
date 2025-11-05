@@ -1,4 +1,6 @@
 import tensorflow as tf
+import matplotlib.pyplot as plt
+import numpy as np
 
 # 2 entradas y 2 pesos correspondientes a la neurona 1 de la capa oculta
 x1 = tf.constant([[1., -1.]])       
@@ -32,5 +34,36 @@ print("\nSalida de la neurona 1 (Sigmoid): \n", h1)
 print("\nSalida de la neurona 2 (ReLU): \n", h2)
 print("\nSalida final (Tanh): \n", y)
 
+print("--- Ahora, la parte gráfica de la tarea ---")
+
+# Creamos un rango de entradas (eje X) de -10 a 10
+x_range = np.linspace(-10, 10, 100) # 100 puntos entre -10 y 10
+x_tensor = tf.constant(x_range, dtype=tf.float32) # Convertimos a Tensor
+
+#Calculamos la salida de cada función de activación para ese rango
+y_sigmoid = tf.nn.sigmoid(x_tensor)
+y_tanh = tf.nn.tanh(x_tensor)
+y_relu = tf.nn.relu(x_tensor)
+
+#Graficamos los resultados con Matplotlib
+plt.figure(figsize=(10, 6))
+
+# Dibujar cada curva
+plt.plot(x_range, y_sigmoid, label='Sigmoid')
+plt.plot(x_range, y_tanh, label='Tanh')
+plt.plot(x_range, y_relu, label='ReLU')
+
+#Añadir títulos y ayudas visuales
+plt.title('Comportamiento de Funciones de Activación')
+plt.xlabel('Valor de entrada (z)')
+plt.ylabel('Valor de activación')
+plt.legend() # Muestra las etiquetas (labels)
+plt.grid(True) # Pone una cuadrícula
+plt.ylim(-1.5, 2.5) # Ajusta los límites del eje Y para que se vea bien
+plt.axhline(0, color='black', linewidth=0.5) # Dibuja el eje X
+plt.axvline(0, color='black', linewidth=0.5) # Dibuja el eje Y
+
+#Mostrar la gráfica
+plt.show()
 
 
