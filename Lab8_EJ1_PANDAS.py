@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
-#Cargar los datos de pandas
+#Cargar los datos de pandas mimimimimi
 data = pd.read_csv("personas.csv") #columnas: Nombre, Edad
 print("Datos originales: \n", data)
 
