@@ -23,3 +23,4 @@ plt.legend()
 plt.grid(True)
 plt.show()
 #ya quedo mi brandon
+#siuu
