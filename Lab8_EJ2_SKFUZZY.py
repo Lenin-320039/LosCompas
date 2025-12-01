@@ -13,3 +13,4 @@ for v in valores:
     pertenencia = fuzz.interp_membership(x_temp, mu_frio, v)
     print(f"Temperatura {v}°C → μ_frío({v}) = {pertenencia:.2f}")
 #ya quedo mi brandon
+#siuuuu
